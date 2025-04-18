@@ -1,6 +1,5 @@
 package exercicios;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class now {
@@ -15,7 +14,17 @@ public class now {
 	System.out.println(fivedays);
 	*/
 		
-	LocalDateTime subhours = LocalDateTime.now().minusHours(2);
+	/*LocalDateTime subhours = LocalDateTime.now().minusHours(2);
 	System.out.println(subhours);
+	*/
+		
+	//SimpleDateFormat sdf = new SimpleDateFormat();
+	
+	LocalDateTime december = LocalDateTime.of(2025, 12, 25, 20, 30);
+	
+	System.out.println(december.getChronology());
 	}
+
+	
+	
 }
