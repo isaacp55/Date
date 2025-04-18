@@ -11,8 +11,11 @@ public class now {
 		System.out.println("Data e hora atual: " + agora);
 		*/
 		
+	/*LocalDateTime fivedays = LocalDateTime.now().plusDays(5);
+	System.out.println(fivedays);
+	*/
 		
-		LocalDateTime fivedays = LocalDateTime.now().plusDays(5);
-		System.out.println(fivedays);
+	LocalDateTime subhours = LocalDateTime.now().minusHours(2);
+	System.out.println(subhours);
 	}
 }
